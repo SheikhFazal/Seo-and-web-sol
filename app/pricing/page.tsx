@@ -4,7 +4,7 @@ import Pricing from "@/sections/Pricing";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pricing | Web Design and Seo SaaS",
+  title: "Pricing | SEO & Web Sol",
   description: "This is About Page for website",
 };
 

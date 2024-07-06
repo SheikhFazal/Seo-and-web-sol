@@ -13,21 +13,27 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+                <Link href="/" className="mb-8 flex items-center">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/random-logo.png"
                     alt="logo"
-                    className="w-full dark:hidden"
+                    className="w-[70px] h-[50px] dark:hidden"
                     width={140}
                     height={30}
                   />
+                  <span className="font-bold text-[17px] text-nowrap pt-2 dark:hidden tracking-tight">
+                    SEO & Web Sol
+                  </span>
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/random-logo-2-footer.png"
                     alt="logo"
-                    className="hidden w-full dark:block"
+                    className="hidden w-[70px] h-[50px] dark:block"
                     width={140}
                     height={30}
                   />
+                  <span className="hidden font-bold text-[17px] text-nowrap pt-2 dark:block tracking-tight text-white">
+                    SEO & Web Sol
+                  </span>
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -192,9 +198,9 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Crafted with joy and {" "}
+              Crafted with joy and{" "}
               <a href="https://nextjstemplates.com" rel="nofollow noopener">
-              passion @ 2024
+                passion @ 2024
               </a>
             </p>
           </div>

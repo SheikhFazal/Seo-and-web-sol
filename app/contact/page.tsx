@@ -4,7 +4,7 @@ import Contact from "@/sections/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Web Design and Seo SaaS",
+  title: "Contact | SEO & Web Sol",
   description: "This is Contact Page for website",
 };
 
